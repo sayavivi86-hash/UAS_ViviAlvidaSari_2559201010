@@ -35,3 +35,16 @@ section {
     justify-content: flex-start; 
 }
 
+section:not(#bukutamu) {
+    padding: 80px 40px;
+    border-bottom: 1px solid #2F6FED;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section h2 {
+    color: #2F6FED;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
