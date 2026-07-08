@@ -153,3 +153,15 @@ nav ul li a:hover {
     border-radius: 10% 25%;
     border: 5px solid #2F6FED;
 }
+#about {
+    background-color: #FFF8EC;
+}
+
+#about p {
+    max-width: 1000px;
+    margin: 0 auto 20px;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 1.1rem;
+    color: #4B5563;
+}
