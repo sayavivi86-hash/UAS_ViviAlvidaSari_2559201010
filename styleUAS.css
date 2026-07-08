@@ -165,3 +165,40 @@ nav ul li a:hover {
     font-size: 1.1rem;
     color: #4B5563;
 }
+
+profile {
+    background-color: #FFF8EC;
+}
+
+.profile-container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.profile-photo {
+    margin-bottom: 25px;
+}
+
+#profile img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10% 25%;
+    border: 5px solid #2F6FED;
+    box-shadow: 0 0 25px #4B5563;
+}
+
+#profile h3 {
+    color: #2F6FED;
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+#profile p {
+    text-align: justify;
+    text-indent: 2rem;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #4B5563;
+}
