@@ -8,3 +8,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: "Poopins",sans-serif;
+    background-color: #FFF8EC;
+    color: #2F6FED;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
