@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: "Poopins",sans-serif;
+    font-family: "Poppins",sans-serif;
     background-color: #FFF8EC;
     color: #2F6FED;
     line-height: 1.7;
@@ -166,7 +166,7 @@ nav ul li a:hover {
     color: #4B5563;
 }
 
-profile {
+#profile {
     background-color: #FFF8EC;
 }
 
