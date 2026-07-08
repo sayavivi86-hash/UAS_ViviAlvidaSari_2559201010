@@ -397,3 +397,114 @@ footer a:hover {
 #home, #about, #profile, #galery, #video, #bukutamu {
     animation: fadeUp 0.8s ease;
 }
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #home h2 {
+        font-size: 2.7rem;
+    }
+    
+    section h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+    
+    nav ul {
+        gap: 12px;
+    }
+    
+    #home {
+        padding: 90px 15px;
+    }
+    
+    #home h2 {
+        font-size: 2rem;
+    }
+    
+    #home p {
+        font-size: 1rem;
+    }
+    
+    section h2 {
+        font-size: 1.6rem;
+    }
+    
+    #profile img {
+        width: 180px;
+        height: 180px;
+    }
+    
+    #galery ul,
+    #video ul {
+        grid-template-columns: 1fr;
+    }
+    
+    .guestbook {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+    
+    #home h2 {
+        font-size: 1.6rem;
+    }
+    
+    #profile img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .foto-card img {
+        height: 220px;
+    }
+    
+    .guestbook {
+        padding: 15px;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
