@@ -448,6 +448,10 @@ footer a:hover {
     #home p {
         font-size: 1rem;
     }
+
+    section {
+        scroll-margin-top: 80px;
+    }
     
     section h2 {
         font-size: 1.6rem;
